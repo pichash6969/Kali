@@ -1,0 +1,49 @@
+भाई, तूने कहा **1 साल है + डिटेल में मास्टर करना है** – तो अब तेरा रोडमैप बिल्कुल अलग लेवल का है।  
+ये वो प्लान है जिससे तू **1 साल बाद HackerOne टॉप-100, रेड-टीम प्रोफेशनल या OSCP++ लेवल** पर पहुँच जाएगा।
+
+### 12 महीने का “Zero to God” रोडमैप (हर महीना 100–150 घंटे)
+
+| महीना | फोकस एरिया                           | क्या सीखना है + प्रैक्टिस टारगेट                                                                 | बुक / कोर्स / प्लेटफॉर्म                                      | टारगेट (महीने के आखिर तक)                     |
+|-------|--------------------------------------|---------------------------------------------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------|
+| 1     | Linux + Terminal God बनो              | 500+ कमांड्स, tmux, zsh, vim/neovim, bash scripting, aliases, cron jobs                           | “The Linux Command Line” (free PDF) + OverTheWire Bandit   | Terminal में आँख बंद करके काम कर सके           |
+| 2     | Networking + Wireshark मास्टर         | OSI model, TCP/UDP, subnetting, ARP/DNS/ICMP deep dive, Wireshark filters, packet crafting         | TCM Networking course + Wireshark labs                      | Wireshark में किसी भी अटैक को स्मेल कर ले      |
+| 3     | Bash + Python ऑटोमेशन स्क्रिप्टिंग    | Python 3 (requests, scapy, pwntools), bash one-liners, 10 custom tools बनाओ                       | Automate the Boring Stuff (free) + own recon script         | अपना recon tool 100 लाइन में बना ले             |
+| 4     | Web बेसिक्स → एडवांस्ड बग हंटिंग      | HTML, JS, HTTP, Burp Suite, XSS, SQLi, CSRF, IDOR, SSRF, JWT, GraphQL, OAuth bugs                  | PortSwigger Academy (100% free)                             | Bugcrowd/HackerOne पर पहला बग रिपोर्ट कर दे     |
+| 5     | Web एडवांस्ड + ऑटोमेशन               | Nuclei custom templates, ffuf + feroxbuster chaining, dalfox, kiterunner, ghauri, ParamSpider     | 500+ Nuclei templates लिखो + daily bug bounty             | रोज 5–10 रिपोर्ट, 1 महीने में 50+ बग्स            |
+| 6     | Active Directory (AD) Pentest         | Kerberos, NTLM, LDAP, GPO, BloodHound, CrackMapExec, Evil-WinRM, PowerView, Mimikatz               | TCM PEH + HackTheBox AD labs + TryHackMe AD path           | HTB Rasta/Optimum/Secrets जैसे मशीन own        |
+| 7     | Privilege Escalation (Linux + Win)    | SUID, sudo -l, kernel exploits, Windows services, DLL hijacking, token impersonation              | TCM PEH + GTFOBins + LinPEAS/WinPEAS mastery                | 100% प्रिविलेज एस्केलेशन सक्सेस रेट           |
+| 8     | C2 Frameworks + Red Team Ops          | Sliver, Havoc, Covenant, Merlin, Mythic → implant dev, OPSEC, EDR evasion                        | SpecterOps “Adversary Tactics” + own C2 lab                 | 30 दिन तक EDR को बायपास करके beacon alive रखे |
+| 9     | Cloud Pentest (AWS/Azure/GCP)         | IAM privesc, SSRF → RCE, metadata abuse, container breakout, misconfigs                           | Flaws.cloud, CloudGoat, AzureGoat, Pacu, CloudFox           | AWS/Azure lab में root/admin बन जाये           |
+| 10    | Mobile + Wireless + Physical          | Frida, Objection, MobSF, APK reverse, Wi-Fi (airgeddon), SDR, RFID, BadUSB                        | TCM Mobile + HackRF/Flipper labs                            | Android/iOS ऐप हैक + Wi-Fi 10 मिनट में crack   |
+| 11    | Reporting + OSCP++ लेवल मशीनें         | Professional report writing (CVSS, remediation), PG Practice, Proving Grounds, HackTheBox Pro Labs | OSCP Guide by Tjnull + OffSec PG Practice                   | 50+ PG/HackTheBox Pro labs own + रिपोर्ट 10/10   |
+| 12    | Real World + Bug Bounty + Freelance   | Intigriti/Yogosha/YesWeHack private programs, real red team engagements, CTF competitions         | Live bug hunting + client reporting                         | HackerOne टॉप-500 या पहला रेड-टीम कॉन्ट्रैक्ट   |
+
+### हर महीने की रूटीन (ये रोज फॉलो कर)
+
+| टाइम         | काम                                   |
+|---------------|----------------------------------------|
+| सुबह 1 घंटा   | 50 नई चीजें (कमांड/टूल/टेक्नीक) याद करो |
+| 2–3 घंटे      | लैब/HTB/THM/PortSwigger पर प्रैक्टिस     |
+| शाम 1 घंटा    | अपना ब्लॉग/नोट्स/स्क्रिप्ट लिखो           |
+| रात 1 घंटा    | Live bug bounty या CTF खेलो              |
+
+### जरूरी रिसोर्सेज (सब फ्री/सस्ते)
+
+| टाइप          | नाम                                      | लिंक / कीमत                     |
+|---------------|------------------------------------------|---------------------------------|
+| Books         | Georgia Weidman, Hacking: The Art of Exploitation, RTFM Red Team Manual | Free PDF मिल जाएंगे             |
+| Courses       | TCM Security (PEH, Linux PrivEsc, Windows PrivEsc), SpecterOps courses | $100–200 each (worth every penny) |
+| Labs          | TryHackMe (सस्ता), HackTheBox (Academy + Pro Labs), PortSwigger Academy | THM yearly ~₹3000              |
+| Bug Bounty    | HackerOne, Bugcrowd, Intigriti, YesWeHack | Free                           |
+| CTF           | CTFtime.org → weekly CTFs                | Free                           |
+
+### तेरा फाइनल गोल (12 महीने बाद)
+
+- HackerOne/Bugcrowd पर 100+ valid bugs
+- OSCP + OSWE या OSEP सर्टिफिकेशन
+- अपना प्राइवेट C2 + custom tools repo
+- रेड-टीम फ्रीलांस या जॉब (8–25 लाख/साल)
+
+अब बोल – **पहले महीने से शुरू करना है?**  
+मैं तुझे **Month 1 का पूरा डिटेल्ड डेली प्लान** (30 दिन × 30 टास्क) अभी बना के दे दूँगा – बस हाँ बोल!  
+तू अब सिर्फ स्टूडेंट नहीं, तू अब Elite Pentester बनने वाला है।
